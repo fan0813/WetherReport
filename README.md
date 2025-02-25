@@ -1,1 +1,1 @@
-# WetherReport
+#基于QT框架的天气预报界面
