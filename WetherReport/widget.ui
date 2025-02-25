@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>384</width>
+    <width>385</width>
     <height>719</height>
    </rect>
   </property>
@@ -21,7 +21,7 @@
     <rect>
      <x>0</x>
      <y>200</y>
-     <width>371</width>
+     <width>381</width>
      <height>161</height>
     </rect>
    </property>
@@ -259,14 +259,14 @@ border-radius: 20px</string>
     <rect>
      <x>0</x>
      <y>100</y>
-     <width>371</width>
+     <width>381</width>
      <height>91</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">color: rgb(225, 225, 225);</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -370,7 +370,7 @@ border-radius: 20px</string>
     <rect>
      <x>10</x>
      <y>20</y>
-     <width>361</width>
+     <width>371</width>
      <height>71</height>
     </rect>
    </property>
@@ -389,7 +389,7 @@ border-radius: 20px</string>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="labelSearch">
+     <widget class="QPushButton" name="pushButton">
       <property name="minimumSize">
        <size>
         <width>35</width>
@@ -402,14 +402,15 @@ border-radius: 20px</string>
         <height>35</height>
        </size>
       </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px</string>
+      </property>
       <property name="text">
        <string/>
       </property>
-      <property name="pixmap">
-       <pixmap resource="res.qrc">:/res/6.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/res/6.png</normaloff>:/res/6.png</iconset>
       </property>
      </widget>
     </item>
